@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ryzo — Your AI-powered fitness trainer. Customize your meals, generate workouts, chat with Coach Ryzo, track steps, and increase your aura points.">
+  <title>Ryzo — Your AI Fitness Companion</title>
+  
+  <!-- Inter Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <img src="assets/ryzo_character.jpg" alt="Ryzo Mascot" class="logo-mascot">
+        <span>Ryzo</span>
+      </a>
+      
+      <nav class="nav-links" id="nav-links">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#ai-coach" class="nav-link">AI Coach</a>
+        <a href="#community" class="nav-link">Community</a>
+        <a href="privacy.html" class="nav-link">Privacy Policy</a>
+      </nav>
+      
+      <div style="display: flex; gap: 12px; align-items: center;">
+        <a href="#download" class="btn btn-primary btn-orange" style="padding: 10px 22px; font-size: 14px;">Download App</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero section">
+    <div class="container hero-grid">
+      <div class="hero-content animate-fade-in">
+        <div class="hero-tag">
+          <span>🔥 Level Up Your Aura</span>
+        </div>
+        <h1 class="hero-title">
+          Elevate your vibe.<br>Boost your aura.<br><span>Transform your body.</span>
+        </h1>
+        <p class="hero-description">
+          Meet Ryzo: the AI fitness companion that builds custom meal plans, designs targeted workout routines, tracks your hydration, and matches you with a 24/7 AI personal trainer.
+        </p>
+        
+        <div class="hero-ctas">
+          <a href="#download" class="btn btn-orange">Download Android App</a>
+          <a href="https://chat.whatsapp.com/Bx7Ksc7ITprFVS2UVoZRCG" target="_blank" class="btn btn-outline btn-whatsapp">
+            <svg style="width: 20px; height: 20px;" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.503-5.729-1.465L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.488 2.003 14.02 1.001 11.393 1c-5.456 0-9.9 4.379-9.905 9.808-.002 1.83.486 3.62 1.414 5.203l-.988 3.606 3.733-.963zm13.102-5.463c-.3-.149-1.77-.849-2.046-.949-.276-.1-.477-.149-.678.15-.2.3-.777.949-.954 1.148-.177.2-.354.225-.654.075-.3-.15-1.265-.45-2.41-1.436-.89-.769-1.49-1.72-1.666-2.019-.176-.3-.018-.462.13-.61.135-.133.3-.349.45-.523.15-.174.2-.299.3-.499.1-.2.05-.375-.025-.524-.075-.15-.678-1.58-.93-2.164-.246-.57-.497-.492-.678-.501-.173-.008-.372-.01-.572-.01s-.524.074-.798.362c-.275.288-1.047 1.016-1.047 2.478 0 1.462 1.096 2.871 1.246 3.07.149.2 2.158 3.197 5.228 4.47 1.066.442 1.776.594 2.378.784.721.229 1.378.197 1.9.12.58-.087 1.771-.701 2.022-1.377.251-.676.251-1.253.176-1.377-.075-.125-.275-.201-.575-.351z"/>
+            </svg>
+            Join WhatsApp Community
+          </a>
+        </div>
+        
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3>10k+</h3>
+            <p>Aura Points Earned</p>
+          </div>
+          <div class="stat-item">
+            <h3>24/7</h3>
+            <p>AI Guidance</p>
+          </div>
+          <div class="stat-item">
+            <h3>98%</h3>
+            <p>Plan Retention</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="device-container animate-fade-in" style="animation-delay: 0.2s;">
+        <div class="glow-bg"></div>
+        
+        <!-- Detailed phone shell -->
+        <div class="phone-shell animate-float">
+          <div class="phone-notch">
+            <span class="phone-camera"></span>
+            <span class="phone-speaker"></span>
+          </div>
+          <div class="phone-screen">
+            <!-- Mockup screens slider - 4 High Quality Feature Screens -->
+            <div class="screen-slider" id="screen-slider">
+              <div class="screen-slide">
+                <img src="assets/feature_01_ai_snap_meal.png" alt="AI Snap Meal">
+              </div>
+              <div class="screen-slide">
+                <img src="assets/feature_02_steps_tracking.png" alt="Steps Tracking">
+              </div>
+              <div class="screen-slide">
+                <img src="assets/feature_03_workout_plans.png" alt="Personalized Workout Plans with Videos">
+              </div>
+              <div class="screen-slide">
+                <img src="assets/feature_04_dashboard_screen11.png" alt="Ryzo App Actual Dashboard Screen 11">
+              </div>
+            </div>
+            
+            <!-- Navigation dots inside screen -->
+            <div class="slider-dots" id="slider-dots">
+              <span class="dot active" data-index="0" title="AI Snap Meal"></span>
+              <span class="dot" data-index="1" title="Steps Tracking"></span>
+              <span class="dot" data-index="2" title="Workout Plans"></span>
+              <span class="dot" data-index="3" title="Dashboard"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section" id="features" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <div class="features-header">
+        <h2 class="hero-tag" style="background-color: rgba(74, 222, 161, 0.12); color: var(--primary-teal-dark); font-size: 12px; font-weight: 800; border-radius: var(--radius-full); padding: 6px 16px; margin: 0 auto 20px auto; display: inline-block;">
+          ✨ Powerful Features
+        </h2>
+        <h2 style="font-size: 38px; color: var(--text-primary);">Everything you need to build your physique</h2>
+      </div>
+      
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-icon orange">💬</div>
+          <h3>Coach Ryzo AI</h3>
+          <p>Get instant 24/7 fitness coaching. Ask Coach Ryzo anything about your daily diet, workout sets, exercise form, or recovery, and receive highly tailored feedback based on your profile.</p>
+        </div>
+        
+        <!-- Feature 2 -->
+        <div class="feature-card">
+          <div class="feature-icon teal">📷</div>
+          <h3>AI Food Scanner</h3>
+          <p>Ditch manual calorie entry. Simply take a snapshot of your breakfast, lunch, or dinner, or scan a barcode. Our AI instantly estimates calories, protein, carbs, and fats.</p>
+        </div>
+        
+        <!-- Feature 3 -->
+        <div class="feature-card">
+          <div class="feature-icon gold">💪</div>
+          <h3>Custom Workout Plans</h3>
+          <p>No cookie-cutter routines. Ryzo generates personalized workout programs dynamically aligned with your target physique, schedule constraints, and equipment availability.</p>
+        </div>
+        
+        <!-- Feature 4 -->
+        <div class="feature-card">
+          <div class="feature-icon peach">🥗</div>
+          <h3>Tailored Meal Schedules</h3>
+          <p>Receive custom meal recipes matching your budget, dietary requirements (vegetarian, non-veg, vegan), and daily caloric needs to keep your energy levels high.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Chat Playground Section -->
+  <section class="section ai-playground" id="ai-coach">
+    <div class="container playground-grid">
+      <div class="playground-info">
+        <div class="hero-tag">
+          <span>🧠 Try The AI Coach</span>
+        </div>
+        <h2 style="font-size: 38px; margin-bottom: 20px; color: var(--text-primary);">Test drive Coach Ryzo</h2>
+        <p style="color: var(--text-secondary); margin-bottom: 30px; font-size: 16px;">
+          Type in a real question or select one of the common topics below to see how Coach Ryzo analyzes your stats to provide premium fitness guidance.
+        </p>
+        
+        <div class="playground-suggestions">
+          <button class="suggestion-pill" data-q="Why am I not gaining weight?">Why am I not gaining weight?</button>
+          <button class="suggestion-pill" data-q="How do I cut belly fat?">How do I cut belly fat?</button>
+          <button class="suggestion-pill" data-q="How can I increase strength?">How can I increase strength?</button>
+          <button class="suggestion-pill" data-q="Is creatine safe?">Is creatine safe?</button>
+        </div>
+      </div>
+      
+      <!-- Interactive Chat Showcase -->
+      <div class="chat-showcase">
+        <div class="chat-header">
+          <img src="assets/ryzo_character.jpg" alt="Coach Ryzo Avatar" class="chat-avatar-img">
+          <div class="chat-header-info">
+            <h4>Coach Ryzo</h4>
+            <p>Online & Ready</p>
+          </div>
+        </div>
+        
+        <div class="chat-body" id="chat-body">
+          <div class="msg coach">
+            Hey there! I'm Coach Ryzo, your AI fitness assistant. Ask me anything about your diet, workouts, or how to increase your aura. 🔥
+          </div>
+          <!-- Typing Indicator -->
+          <div class="msg coach typing-indicator" id="typing-indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        
+        <div class="chat-footer">
+          <input type="text" id="chat-input" placeholder="Ask Coach Ryzo something..." aria-label="Chat input">
+          <button id="chat-send" aria-label="Send message">
+            <svg style="width: 18px; height: 18px; fill: white;" viewBox="0 0 24 24">
+              <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WhatsApp Community Callout -->
+  <section class="section" id="community">
+    <div class="community-section">
+      <div class="community-grid">
+        <div class="community-text">
+          <h2 style="color: white;">Join the WhatsApp Community</h2>
+          <p>
+            Gain access to our exclusive network. Build an aesthetic physique alongside hundreds of other members. Receive free workouts, daily tips, physical motivation, and progress reviews.
+          </p>
+          <a href="https://chat.whatsapp.com/Bx7Ksc7ITprFVS2UVoZRCG" target="_blank" class="btn btn-whatsapp" style="font-size: 16px; padding: 14px 32px;">
+            Join Group for Free 🔥
+          </a>
+        </div>
+        
+        <div class="community-img">
+          <img src="assets/feature_04_dashboard_screen11.png" alt="Ryzo App Dashboard Mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download CTA Section -->
+  <section class="section" id="download" style="text-align: center; background-color: var(--bg-secondary);">
+    <div class="container" style="max-width: 700px;">
+      <div class="hero-tag" style="margin-bottom: 20px;">
+        <span>📲 Get Started Today</span>
+      </div>
+      <h2 style="font-size: 44px; margin-bottom: 20px; color: var(--text-primary);">Launch Your Transformation</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 40px; font-size: 18px;">
+        Ready to take control of your diet, structure your gym routines, and raise your physique's aura score? Download the official Ryzo Android app now.
+      </p>
+      
+      <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+        <!-- Android Play Store badge design -->
+        <a href="#" class="btn btn-orange" style="padding: 16px 40px; font-size: 17px; box-shadow: var(--shadow-glow);">
+          <span>Download Android APK</span>
+        </a>
+        <a href="https://chat.whatsapp.com/Bx7Ksc7ITprFVS2UVoZRCG" target="_blank" class="btn btn-outline" style="padding: 16px 40px; font-size: 17px;">
+          <span>Get Free WhatsApp Access</span>
+        </a>
+      </div>
+      <p style="margin-top: 20px; font-size: 13px; color: var(--text-muted);">Compatible with Android 8.0 and above. iOS version coming soon.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>
+          <img src="assets/ryzo_character.jpg" alt="Ryzo Logo" style="height: 36px; width: 36px; border-radius: 50%; object-fit: cover;">
+          Ryzo
+        </h3>
+        <p>
+          Transform your body, your vibe, and your confidence. Raise your aura points daily with personalized workouts, custom diet plans, and 24/7 AI-guided coaching.
+        </p>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#ai-coach">AI Coach</a></li>
+          <li><a href="#community">Community</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Legal & Contact</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="mailto:support.ryzo.app@gmail.com">support.ryzo.app@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Ryzo App. All rights reserved. Built for aesthetic physique transformations.</p>
+      <p style="font-size: 12px; color: #555;">Design inspired by premium fitness aesthetics.</p>
+    </div>
+  </footer>
+
+  <!-- Script File -->
+  <script src="index.js"></script>
+</body>
+</html>
