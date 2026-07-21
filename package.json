@@ -5,9 +5,7 @@
   "description": "Ryzo AI Fitness Companion — Official Landing Page",
   "main": "index.html",
   "scripts": {
-    "dev": "npx -y serve -l 3000 .",
-    "start": "npx -y serve -l 3000 .",
-    "build": "echo 'Static assets ready for Vercel deployment'"
+    "dev": "npx -y serve -l 3000 ."
   },
   "keywords": [
     "ryzo",
