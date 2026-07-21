@@ -1,6 +1,4 @@
 {
-  "version": 2,
-  "name": "ryzo-app",
-  "outputDirectory": ".",
+  "framework": null,
   "cleanUrls": true
 }
